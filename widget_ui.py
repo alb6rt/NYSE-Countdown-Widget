@@ -17,7 +17,7 @@ class CountdownWidget:
     # A helper method to set up the main window's properties
     def _setup_window(self):
         # All the code to center the window and make it borderless.
-        window_width = 350;
+        window_width = 1000;
         window_height = 100;
 
         screen_width = self.root.winfo_screenwidth();
