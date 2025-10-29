@@ -28,7 +28,7 @@ class CountdownWidget:
 
         self.root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}');
         self.root.overrideredirect(True);
-        self.root.attributes('-topmost', True);
+        self.root.attributes('-topmost', False);
         self.root.config(bg="black");
 
     # A helper method to create the widgets
